@@ -1,0 +1,111 @@
+// Common stuff
+.descriptors {
+  color: grey;
+  font-size: .7em;
+  margin-left: 1em;
+}
+
+.prettified {
+  font-size: 14px;
+  font-family: monospace;
+
+  > .onlyCollapsed {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.type {
+
+  &::after {
+    .descriptors;
+  }
+
+  &.string {
+
+    color: red;
+
+    &::after {
+      content: "(string)";
+    }
+  }
+  &.number {
+    color: green;
+
+    &::after {
+      content: "(number)";
+    }
+  }
+  &.boolean {
+    color: blue;
+
+    &::after {
+      content: "(boolean)";
+    }
+  }
+  &.null {
+    color: black;
+
+    &::after {
+      content: "(null)";
+    }
+  }
+
+  &.function {
+    color: green;
+  }
+}
+
+.numHiddenElements {
+  .descriptors;
+}
+
+.collapser {
+  cursor: pointer;
+  position: absolute;
+  margin-left: -1.5em;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &.expanded {
+
+    > .onlyCollapsed {
+      display: none;
+      visibility: hidden;
+    }
+
+    .collapser::before {
+      content: '-';
+    }
+  }
+
+  &.collapsed {
+
+    > .onlyExpanded {
+      display: none;
+      visibility: hidden;
+    }
+
+    .collapser::before {
+      content: '+';
+    }
+  }
+
+  .colon {
+    margin: 0 .5em 0 .5em;
+  }
+
+  &:last-child > .comma {
+    display: none;
+  }
+
+}

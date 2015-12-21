@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Skytte IT</string>
+	<key>Builder Version</key>
+	<string>11601.3.9</string>
+	<key>CFBundleDisplayName</key>
+	<string>JSON Viewer</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.skytteit.jsonviewer</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>Scripts/end.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Preview your JSON responses in an easy-to-read format.</string>
+	<key>DeveloperIdentifier</key>
+	<string>CW8F5L4TVF</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://greew.dk/jsonviewer</string>
+</dict>
+</plist>
