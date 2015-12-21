@@ -22,7 +22,7 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>Scripts/end.js</string>
+				<string>scripts/end.js</string>
 			</array>
 		</dict>
 	</dict>
@@ -43,6 +43,6 @@
 		</dict>
 	</dict>
 	<key>Website</key>
-	<string>https://greew.dk/jsonviewer</string>
+	<string>https://github.com/greew/jsonviewer</string>
 </dict>
 </plist>
