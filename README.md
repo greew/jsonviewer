@@ -17,15 +17,18 @@ The extension runs on each response and checks if the data from the response
 
 If all of the above returns successful, the extension begins to setup the prettified JSON.
 
+It is still possible to switch between the prettified JSON and the original JSON response with a single click on a button.
+
 Attributes of the prettified JSON
 ---------------------------------
 - For each new nesting level, the input is indented to allow for easy distinction between levels of data.
 - Different data types are written in different colors to allow for easy distinct of data types.
-- Lets the user collapse and expand objects and arrays. Either individually or all at once.
+- Lets the user collapse and expand objects and arrays. Either individually or all at once. 
 
 Ideas and to comes
 ------------------
-- Allow the user to define colors for data types.
+- Let the user define colors for data types.
+- Let the user show/hide the type names
 
 If you've got any other ideas, please let me know.
 
