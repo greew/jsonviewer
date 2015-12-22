@@ -13,7 +13,7 @@
 
         this.body = document.body;
 
-        if (document.location.hash.indexOf('rawJson') > -1) {
+        if (document.location.hash.indexOf('raw') > -1) {
             return;
         }
 
