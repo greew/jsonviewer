@@ -22,7 +22,7 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>scripts/end.js</string>
+				<string>scripts/end.min.js</string>
 			</array>
 		</dict>
 	</dict>
