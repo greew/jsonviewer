@@ -106,7 +106,7 @@
         this.style.setAttribute('rel', 'stylesheet');
         this.style.setAttribute('type', 'text/css');
         this.style.setAttribute('media', 'all');
-        this.style.setAttribute('href', safari.extension.baseURI + 'styles/style.css');
+        this.style.setAttribute('href', safari['extension'].baseURI + 'styles/style.css');
 
         this.buttons = this.createButtons();
 
