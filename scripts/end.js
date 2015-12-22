@@ -1,3 +1,4 @@
+"use strict";
 /** @preserve
  * Copyright (c) 2015, Jesper Skytte Hansen <jesper@skytte.it>
  * All rights reserved.
