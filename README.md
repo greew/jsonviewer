@@ -30,7 +30,7 @@ Ideas and to comes
 - Let the user define colors for data types.
 - Let the user show/hide the type names
 
-If you've got any other ideas, please let me know.
+If you've got any other ideas or find any bugs, please let me know, either by emailing me or by creating a pull request.
 
 Contact
 --------
