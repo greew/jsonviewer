@@ -1,8 +1,6 @@
-/**
- * @preserve
+/** @preserve
  * Copyright (c) 2015, Jesper Skytte Hansen <jesper@skytte.it>
  * All rights reserved.
- *
  * See license located in docs/LICENSE.txt
  */
 (function () {
