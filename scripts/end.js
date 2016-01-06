@@ -1,5 +1,6 @@
 "use strict";
-/** @preserve
+/**
+ * @preserve
  * Copyright (c) 2015, Jesper Skytte Hansen <jesper@skytte.it>
  * All rights reserved.
  * See license located in docs/LICENSE.txt
@@ -70,6 +71,7 @@
      * @returns {{json: string}|boolean} The JSON string if first string is { or [
      */
     JsonViewer.prototype.checkForJSON = function (content) {
+        content = content.trim();
         var char = content.charAt(0);
         if (char == "{" || char == "[") {
             return {
@@ -85,7 +87,7 @@
      * @returns {{json: string, function: string, endingSemicolon: boolean}|boolean} The JSON string if first string is { or [
      */
     JsonViewer.prototype.checkForJSONP = function (content) {
-        var regexp = /^([^\(]+)\((([{\[])(.*)([}\]]))\)(;)?$/;
+        var regexp = /^\s*([^\(]+)\((([{\[])(.*)([}\]]))\)(;)?$/;
         var matches = content.match(regexp);
         if (!matches) {
             return false;

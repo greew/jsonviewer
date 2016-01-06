@@ -7,15 +7,15 @@
 	<key>Builder Version</key>
 	<string>11601.3.9</string>
 	<key>CFBundleDisplayName</key>
-	<string>JSON Viewer</string>
+	<string>JSONViewer</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.skytteit.jsonviewer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.1.0</string>
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
@@ -43,8 +43,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://raw.githubusercontent.com/greew/jsonviewer/master/Update.plist</string>
+	<string>https://greew.dk/jsonviewer/Update.plist</string>
 	<key>Website</key>
-	<string>https://github.com/greew/jsonviewer</string>
+	<string>https://greew.dk/</string>
 </dict>
 </plist>
